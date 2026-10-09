@@ -6,7 +6,7 @@
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    overflow-y: auto; /* Cho phép cuộn dọc khi nội dung vượt quá chiều cao màn hình */
+    overflow-y: auto !important; /* Mở khóa cuộn dọc khi màn hình thiếu chiều cao */
     font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   }
 
